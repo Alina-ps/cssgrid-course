@@ -1,0 +1,13 @@
+@import url(./basic-styles.css);
+
+/* lesson styles */
+
+.container {
+  display: grid;
+  /* 3 columns, 1- 100px 2-200px 3-400px */
+  /* elements flow from left to right from top to bottom */
+  grid-template-columns: 100px 200px 400px;
+
+  /* 3 rows, 1-200px 2-50px 3-400px */
+  grid-template-rows: 200px 50px 100px;
+}

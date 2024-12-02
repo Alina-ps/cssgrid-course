@@ -1,0 +1,20 @@
+@import url(./basic-styles.css);
+
+/* lesson styles */
+
+.container {
+  display: grid;
+  grid-template-columns: 100px 200px 400px;
+  grid-template-rows: 200px 150px 100px;
+  /* grid-column-gap horizontal spacing between columns 
+     grid-row-gap — vertical spacing between rows */
+  /* gaps only inside table */
+  /* column-gap: 50px; */
+  /* row-gap: 50px; */
+
+  /* gap for row and column at the same time */
+  /* gap: 50px; */
+
+  /* row 50px column 100px */
+  /* gap: 50px 100px; */
+}

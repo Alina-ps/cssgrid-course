@@ -1,0 +1,14 @@
+@import url(./basic-styles.css);
+
+/* lesson styles */
+
+.container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 100px 200px;
+
+  /* when we set to column, every new element will be added to column (horizontally)
+  but if grid-auto-flow is not set, 
+  by default new element will be added to new row (vertically) */
+  grid-auto-flow: row;
+}

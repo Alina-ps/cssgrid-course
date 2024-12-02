@@ -1,0 +1,16 @@
+@import url(./basic-styles.css);
+
+/* lesson styles */
+
+.container {
+  display: grid;
+  gap: 20px;
+
+  /* explicit - what we set by gtc 100px 200px  */
+  /* implicit done by browser based on our settings */
+  grid-template-columns: 100px 200px;
+  grid-template-rows: 50px 100px;
+
+  /* to control new rows that will be created and we didn't set row for them */
+  grid-auto-rows: 400px 100px;
+}

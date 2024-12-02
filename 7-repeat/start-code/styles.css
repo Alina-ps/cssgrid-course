@@ -1,0 +1,12 @@
+@import url(./basic-styles.css);
+
+/* lesson styles */
+
+.container {
+  display: grid;
+  gap: 25px;
+
+  /* repeat() use if you need to apply the same style to multiple containers,
+  you can create a sequence 4 elements 3fr or 4, 1fr 2fr  */
+  grid-template-columns: 100px repeat(4, 1fr) auto;
+}

@@ -1,0 +1,43 @@
+@import url(./basic-styles.css);
+
+/* lesson styles */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(3, 150px);
+  border: 10px solid;
+  height: 500px;
+
+  /* justify-items inside sell each element horizontally*/
+  /* justify-items: start; */
+  /* justify-items: end; */
+  /* justify-items: center; */
+  justify-items: stretch;
+
+  /* align-items vertically */
+  /* align-items: start; */
+  /* align-items: end; */
+  /* align-items: center; */
+  align-items: stretch;
+
+  /* justify-items center + align-items center = 
+  element in the center of cell */
+
+  /* justify-content 
+  (start end center space-around space-between space-evenly)
+   inside container */
+  justify-content: space-evenly;
+
+  /* align-content 
+  (start end center space-around space-between space-evenly) */
+  align-content: space-evenly;
+}
+
+.item-4 {
+  /* justify-self */
+  justify-self: stretch;
+
+  /* align-self */
+  align-self: stretch;
+}

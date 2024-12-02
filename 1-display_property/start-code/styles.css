@@ -1,0 +1,11 @@
+@import url(./basic-styles.css);
+
+/* lesson styles */
+
+.container {
+  /* ставить в колонку, залишає блочну модель */
+  display: grid;
+
+  /* ставить документи в рядок, блочні робить інлайновими */
+  /* display: inline-grid; */
+}
